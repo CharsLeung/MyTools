@@ -28,7 +28,6 @@ public class AjaxServlet extends HttpServlet {
 		//2.检查参数是否有问题
 		//3.校验操作
 		//4.ajax返回相应数据
-
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		
